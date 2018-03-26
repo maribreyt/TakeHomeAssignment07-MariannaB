@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/lessons"
+        android:title="Let's start our lessons!"
+        android:icon="@android:drawable/button_onoff_indicator_on"
+        app:showAsAction="always"
+        android:onClick="startLessons"
+        />
+
+    <item
+        android:id="@+id/rewards"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="Check your rewards"
+        app:showAsAction="always"
+        android:onClick="rewards"
+        />
+
+    <item
+        android:id="@+id/save"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="Share"
+        app:showAsAction="never"
+        android:onClick="shareIt"
+        />
+
+
+</menu>
