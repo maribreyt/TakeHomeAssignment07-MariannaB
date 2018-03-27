@@ -9,18 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
-            android:label="LESSONS">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActionBarActivity"
-            android:label="LESSONS"/>
-        <activity android:name=".RecyclerViewActivity"
-            android:label="LESSONS"></activity>
+        <activity
+            android:name=".ActionBarActivity"
+            android:label="Lessons Action Bar" />
+        <activity
+            android:name=".RecyclerViewActivity"
+            android:label="Lessons">
+
+        </activity>
     </application>
 
 </manifest>
